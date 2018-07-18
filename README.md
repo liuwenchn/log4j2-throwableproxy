@@ -3,31 +3,32 @@
 Architecture:          x86_64
 CPU op-mode(s):        32-bit, 64-bit
 Byte Order:            Little Endian
-CPU(s):                12
-On-line CPU(s) list:   0-11
-Thread(s) per core:    1
-Core(s) per socket:    6
+CPU(s):                32
+On-line CPU(s) list:   0-31
+Thread(s) per core:    2
+Core(s) per socket:    8
 Socket(s):             2
 NUMA node(s):          2
 Vendor ID:             GenuineIntel
 CPU family:            6
-Model:                 62
-Model name:            Intel(R) Xeon(R) CPU E5-2620 v2 @ 2.10GHz
-Stepping:              4
-CPU MHz:               2100.000
-BogoMIPS:              4205.11
+Model:                 63
+Model name:            Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz
+Stepping:              2
+CPU MHz:               1200.000
+CPU max MHz:           2400.0000
+CPU min MHz:           1200.0000
+BogoMIPS:              4794.19
 Virtualization:        VT-x
 L1d cache:             32K
 L1i cache:             32K
 L2 cache:              256K
-L3 cache:              15360K
-NUMA node0 CPU(s):     0-5
-NUMA node1 CPU(s):     6-11
-
+L3 cache:              20480K
+NUMA node0 CPU(s):     0-7,16-23
+NUMA node1 CPU(s):     8-15,24-31
 
               total        used        free      shared  buff/cache   available
-Mem:            15G        894M        1.1G        580M         13G         13G
-Swap:          8.0G        235M        7.8G
+Mem:            31G        3.1G         22G        209M        5.3G         27G
+Swap:          8.0G          0B        8.0G
 ```
 
 # result
