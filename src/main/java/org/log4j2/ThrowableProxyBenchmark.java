@@ -49,8 +49,8 @@ public class ThrowableProxyBenchmark {
     public static void main(String[] args) throws RunnerException {
         Options options = new OptionsBuilder()
                 .include(ThrowableProxyBenchmark.class.getName())
-                .warmupIterations(30)
-                .measurementIterations(30)
+                .warmupIterations(20)
+                .measurementIterations(20)
                 .build();
 
         new Runner(options).run();
