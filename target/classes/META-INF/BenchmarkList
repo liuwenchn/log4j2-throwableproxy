@@ -1,0 +1,2 @@
+JMH S 34 org.log4j2.ThrowableProxyBenchmark S 62 org.log4j2.generated.ThrowableProxyBenchmark_optimized_jmhTest S 9 optimized S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E E E E E 
+JMH S 34 org.log4j2.ThrowableProxyBenchmark S 61 org.log4j2.generated.ThrowableProxyBenchmark_baseline_jmhTest S 8 baseline S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E E E E E 
