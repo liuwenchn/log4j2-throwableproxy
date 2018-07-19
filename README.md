@@ -43,6 +43,14 @@ ThrowableProxyBenchmark.optimized            thrpt  200  68240.450 ± 1415.441  
 ThrowableProxyBenchmark.optimizedWithoutMap  thrpt  200  32693.300 ±  736.918  ops/s
 ```
 
+- 250
+```
+Benchmark                                     Mode  Cnt      Score     Error  Units
+ThrowableProxyBenchmark.baseline             thrpt  200   4244.618 ± 113.109  ops/s
+ThrowableProxyBenchmark.optimized            thrpt  200  20505.901 ± 443.151  ops/s
+ThrowableProxyBenchmark.optimizedWithoutMap  thrpt  200  14914.728 ± 313.668  ops/s
+```
+
 - 500
 ```
 # Run complete. Total time: 00:20:23
