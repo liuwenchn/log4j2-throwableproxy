@@ -6,3 +6,4 @@ dontinline,*.*_thrpt_jmhStub
 inline,org/log4j2/ThrowableProxyBenchmark$ExceptionProvider.init
 inline,org/log4j2/ThrowableProxyBenchmark.baseline
 inline,org/log4j2/ThrowableProxyBenchmark.optimized
+inline,org/log4j2/ThrowableProxyBenchmark.optimizedMap

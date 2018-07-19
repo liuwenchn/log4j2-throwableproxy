@@ -25,9 +25,8 @@ public class ThrowableProxyBenchmark {
             I i = null;
 
             for (int j = 0; j <= 50; j++) {
-                i = new B(new A(i));
+                i = new L(new K(new J(new H(new F(new E(new D(new C(new B(new A(i))))))))));
             }
-
             try {
                 i.trigger();
             } catch (Exception e) {
@@ -44,6 +43,11 @@ public class ThrowableProxyBenchmark {
     @Benchmark
     public void optimized(ExceptionProvider provider) {
         new OptimizedThrowableProxy(provider.ex);
+    }
+
+    @Benchmark
+    public void optimizedWithoutMap(ExceptionProvider provider) {
+        new OptimizedWithoutMapThrowableProxy(provider.ex);
     }
 
     public static void main(String[] args) throws RunnerException {
