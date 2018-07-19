@@ -32,10 +32,23 @@ Swap:          8.0G          0B        8.0G
 ```
 
 # result
-```
-# Run complete. Total time: 00:13:35
 
-Benchmark                           Mode  Cnt      Score     Error  Units
-ThrowableProxyBenchmark.baseline   thrpt  200   9821.610 ± 210.106  ops/s
-ThrowableProxyBenchmark.optimized  thrpt  200  37793.876 ± 586.063  ops/s
+- 10
+```
+# Run complete. Total time: 00:20:22
+
+Benchmark                                     Mode  Cnt      Score      Error  Units
+ThrowableProxyBenchmark.baseline             thrpt  200  33032.534 ±  801.562  ops/s
+ThrowableProxyBenchmark.optimized            thrpt  200  68240.450 ± 1415.441  ops/s
+ThrowableProxyBenchmark.optimizedWithoutMap  thrpt  200  32693.300 ±  736.918  ops/s
+```
+
+- 500
+```
+# Run complete. Total time: 00:20:23
+
+Benchmark                              Mode  Cnt      Score     Error  Units
+ThrowableProxyBenchmark.baseline      thrpt  200   2062.741 ±  66.500  ops/s
+ThrowableProxyBenchmark.optimized     thrpt  200  10918.578 ± 295.770  ops/s
+ThrowableProxyBenchmark.optimizedWithoutMap  thrpt  200   9054.242 ± 264.561  ops/s
 ```
